@@ -10,7 +10,7 @@ GEM
   specs:
     base64 (0.3.0)
     diff-lcs (1.6.2)
-    json (2.18.0)
+    json (2.18.1)
     rake (13.3.1)
     rspec (3.13.2)
       rspec-core (~> 3.13.0)
@@ -24,14 +24,15 @@ GEM
     rspec-mocks (3.13.7)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.6)
+    rspec-support (3.13.7)
 
 PLATFORMS
-  aarch64-linux
+  arm-linux-gnu
+  arm-linux-musl
   arm64-darwin
-  ruby
   x86_64-darwin
-  x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   json_token!
@@ -39,7 +40,7 @@ DEPENDENCIES
   rspec (~> 3.12)
 
 RUBY VERSION
-   ruby 3.4.1p0
+   ruby 3.4.2p28
 
 BUNDLED WITH
    2.6.7

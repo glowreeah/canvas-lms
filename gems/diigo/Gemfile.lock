@@ -12,8 +12,6 @@ GEM
     nokogiri (1.19.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.19.0-aarch64-linux-gnu)
-      racc (~> 1.4)
     nokogiri (1.19.0-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.19.0-x86_64-darwin)
@@ -34,14 +32,15 @@ GEM
     rspec-mocks (3.13.7)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.6)
+    rspec-support (3.13.7)
 
 PLATFORMS
-  aarch64-linux
+  arm-linux-gnu
+  arm-linux-musl
   arm64-darwin
-  ruby
   x86_64-darwin
-  x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   diigo!
@@ -49,7 +48,7 @@ DEPENDENCIES
   rspec (~> 3.12)
 
 RUBY VERSION
-   ruby 3.4.1p0
+   ruby 3.4.2p28
 
 BUNDLED WITH
    2.6.7

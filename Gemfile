@@ -1,3 +1,4 @@
+ruby '3.4.2'
 # frozen_string_literal: true
 
 # What have they done to the Gemfile???
